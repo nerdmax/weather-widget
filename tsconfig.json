@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "lib": ["es6"],
+    "skipLibCheck": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es6",
+    "jsx": "react",
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "baseUrl": ".",
+    "paths": {
+      "@weather-widget/*": ["packages/*/src"]
+    }
+  }
+}
