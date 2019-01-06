@@ -1,0 +1,52 @@
+{
+  "name": "@weather-widget/frontend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "shx rm -rf '.build/*' && webpack --config webpack.prod.js",
+    "dev": "webpack-dev-server --config webpack.dev.js",
+    "start": "yarn dev"
+  },
+  "dependencies": {
+    "@types/ramda": "^0.25.36",
+    "@types/react": "^16.1.0",
+    "@types/react-dom": "^16.0.4",
+    "@weather-widget/components": "*",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-syntax-typescript": "^7.0.0-beta.3",
+    "clipboard-polyfill": "^2.5.2",
+    "cross-fetch": "^2.2.2",
+    "css-loader": "^0.28.11",
+    "dotenv-webpack": "^1.5.7",
+    "html-webpack-plugin": "^3.2.0",
+    "identity-obj-proxy": "^3.0.0",
+    "moment": "^2.22.2",
+    "node-sass": "^4.9.3",
+    "ramda": "^0.25.0",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "react-hot-loader": "^4.0.1",
+    "react-redux": "^5.0.7",
+    "react-testing-library": "^5.0.0",
+    "redux-devtools-extension": "^2.13.5",
+    "sass-loader": "^7.1.0",
+    "serverless-finch": "^2.3.2",
+    "shx": "^0.3.0",
+    "style-loader": "^0.21.0",
+    "ts-loader": "^4.4.2",
+    "tsconfig-paths-webpack-plugin": "^3.2.0",
+    "tslint": "^5.10.0",
+    "tslint-config-prettier": "^1.13.0",
+    "typed-css-modules": "^0.3.4",
+    "typescript-fsa": "^3.0.0-beta-2",
+    "uglifyjs-webpack-plugin": "^1.2.6",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.2.0",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "devDependencies": {
+    "webpack-bundle-analyzer": "^2.13.1"
+  }
+}
