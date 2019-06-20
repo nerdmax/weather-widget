@@ -1,5 +1,7 @@
 # Weather Widget
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/nerdmax/weather-widget.svg)](https://greenkeeper.io/)
+
 This is Max Liu's solutions to BLUE's technical test: <https://ffxblue.github.io/interview-tests/test/weather-widget/)>
 
 - [Weather Widget](#weather-widget)
